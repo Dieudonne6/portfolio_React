@@ -8,9 +8,10 @@ const education = [
     Niveau: "Licence en Système informatique et logiciel",
     Ecole: "Institut Universitaire Les Cours SONOU",
     localisation: "Benin, Abomey-Calavi",
+    internal: true,
     description:
       "Formation en developpement logiciel, bases de donnees, algorithmique, gestion de projets informatiques, etc.",
-    Mémoire: "Mise en place d'une plateforme d'offres de services et de produts pour artisan: cas du Bénin",
+    Mémoire: "Mise en place d'une plateforme d'offres de services et de produits pour artisan: cas du Bénin",
     Notes_Memoire: "16/20 T.Bien",
     Cours_Principale: ["Mathématiques Générales", "Algorithmique", "Algorithme avancé", "Algèbre linéaire", "Système de numération", "Recherche Opérationnelle", "Structure de données", "POO", "Base de donnees Relationnelles", "Langage UML", "Base de données et SQL", "Gestion de projet"],
   },
@@ -89,6 +90,21 @@ export function Education() {
                       <p className="text-muted-foreground leading-relaxed mb-4">
                         {edu.description}
                       </p>
+
+{edu.internal && (
+  <div className="mt-3 mb-3 p-3 border border-border rounded-lg bg-card/50">
+    <p className="text-sm text-muted-foreground mb-1">
+      Sujet de mémoire
+    </p>
+    <p className="text-sm font-medium text-foreground">
+      {edu.Mémoire}
+    </p>
+
+    <span className="inline-block mt-2  px-2 py-1 text-xs font-medium bg-green-500/10 text-green-500 rounded">
+      Note : {edu.Notes_Memoire}
+    </span>
+  </div>
+)}
 
                       {/* Skills Tags */}
                       <div className="flex flex-wrap gap-2">
