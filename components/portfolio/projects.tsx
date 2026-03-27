@@ -22,7 +22,7 @@ const projects = [
     tech: ["Laravel 12", "PostgreSQL", "UUID", "QR Code"],
     featured: true,
     links: {
-      demo: "https://ton-lien.com",
+      demo: "#",
       github: "https://github.com/Dieudonne6/",
     },
   },
@@ -33,7 +33,7 @@ const projects = [
     tech: ["Laravel 10", "Python", "Pandas", "Power BI", "Swagger"],
     featured: true,
     links: {
-      demo: "https://ton-lien.com",
+      demo: "#",
       github: "https://github.com/Dieudonne6/",
     },
   },
@@ -68,7 +68,7 @@ const projects = [
     tech: ["node js", "JavaScript", "Sequelize", "Swagger"],
     featured: false,
     links: {
-      demo: "https://ton-lien.com",
+      demo: "#",
       github: "https://github.com/Dieudonne6/",
     },
   },

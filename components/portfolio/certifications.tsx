@@ -9,7 +9,7 @@ const certifications = [
     issuer: "Google",
     date: "2026",
     credentialId: "GA4-2026",
-    link: "/certifications/google_analytic_4_certificate.png",
+    link: "/Certifications/google_analytic_4_certificate.png",
     icon: "https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg",
     bgColor: "from-blue-500/20 to-blue-600/10",
     borderColor: "hover:border-blue-500/50",
@@ -19,7 +19,7 @@ const certifications = [
     issuer: "HackerRank",
     date: "2026",
     credentialId: "PS-INT-2026",
-    link: "/certifications/problem_solving_intermediate certificate.pdf",
+    link: "/Certifications/problem_solving_intermediate certificate.pdf",
     icon: null,
     bgColor: "from-green-500/20 to-green-600/10",
     borderColor: "hover:border-green-500/50",
@@ -29,7 +29,7 @@ const certifications = [
     issuer: "HackerRank",
     date: "2026",
     credentialId: "API-INT-2026",
-    link: "/certifications/rest_api_intermediate certificate.pdf",
+    link: "/Certifications/rest_api_intermediate certificate.pdf",
     icon: null,
     bgColor: "from-emerald-500/20 to-emerald-600/10",
     borderColor: "hover:border-emerald-500/50",
@@ -39,7 +39,7 @@ const certifications = [
     issuer: "HackerRank",
     date: "2026",
     credentialId: "SQL-INT-2026",
-    link: "/certifications/sql_intermediate certificate.pdf",
+    link: "/Certifications/sql_intermediate certificate.pdf",
     icon: null,
     bgColor: "from-teal-500/20 to-teal-600/10",
     borderColor: "hover:border-teal-500/50",
@@ -48,7 +48,7 @@ const certifications = [
 
 export function Certifications() {
   return (
-    <section id="certifications" className="py-24">
+    <section id="Certifications" className="py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
