@@ -29,7 +29,7 @@ export function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="#home" className="text-2xl font-bold text-primary font-mono">
-              {"<FA />"}
+              {"Franck AYENAN"}
             </Link>
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
               Développeur Backend passionné par la création de solutions robustes et performantes.

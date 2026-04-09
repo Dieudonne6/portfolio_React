@@ -7,37 +7,43 @@ const experiences = [
     period: "Fév 2024 – Présent",
     title: "Développeur Web",
     company: "C BOX Sarl",
+    country: "Cotonou, Benin",
     description:
       "Conception et développement d'APIs RESTful avec le framework PHP Laravel. Mise en place de solutions backend sécurisées et maintenance d'applications web.",
     achievements: [
-      "Développement d’APIs REST avec le framework PHP Laravel",
-      "Intégration de services externes (API, notifications, etc.)",
-      "Débogage et maintenance d’applications web",
+      "Conception et développement d’APIs REST avec Laravel, en organisant la logique métier pour simplifier les traitements et éviter les incohérences.",
+      "Intégration d’APIs tierces pour traiter les actions utilisateurs et assurer la mise à jour des données en conséquence.",
+      "Diagnostic et résolution d’anomalies avec une amélioration continue garantissant la stabilité des applications.",
+      "Mise en place de systèmes de notifications en temps réel pour améliorer l’expérience utilisateur.",
+      "Conception et structuration d’architectures d’API REST sécurisées (gestion des rôles, authentification, validation des données).",
     ],
   },
   {
     period: "Fév 2023 – Mai 2023",
     title: "Stage Académique (Développeur Full Stack)",
     company: "TPAPY Consult",
+    country: "Porto-Novo, Benin",
     description:
       "Développement de solutions hybrides incluant le backend Laravel et des interfaces mobiles.",
     achievements: [
-      "Analyse et modélisation des systèmes via des diagrammes UML",
-      "Développement d'interfaces mobiles avec Flutter",
-      "Développement d’application web avec Laravel",
-      "Tests et validation des fonctionnalités",
+      "Développement d’interfaces mobiles avec Flutter.",
+      "Contribution au développement d’application web avec laravel, en respectant une architecture claire et maintenable.",
+      "Mise en place de scénarios de test pour valider les fonctionnalités avant la mise en production.",
+      "Contribution à la conception de modules à partir des besoins utilisateurs.",
     ],
   },
   {
     period: "Juin 2022 – Sep 2022",
     title: "Stage Académique (Développeur WordPress)",
     company: "C BOX Sarl",
+    country: "Cotonou, Benin",
     description:
       "Gestion et optimisation de plateformes web via CMS et personnalisation technique.",
     achievements: [
-      "Création et gestion de sites web avec WordPress",
-      "Personnalisation de thèmes et plugins",
-      "Optimisation SEO de base et amélioration de la performance web",
+      "Conception et déploiement de sites web sous WordPress.",
+      "Personnalisation avancée de thèmes et plugins pour répondre à des exigences fonctionnelles précises.",
+      "Optimisation du référencement des sites pour améliorer leur visibilité.",
+      "Analyse des besoins et modélisation des fonctionnalités en amont.",
     ],
   },
 ]
@@ -89,12 +95,16 @@ export function Experience() {
                           {exp.title}
                         </h3>
                         <p className="text-muted-foreground">{exp.company}</p>
+
+                        <p className="text-xs text-muted-foreground italic font-medium mt-1">
+                          {exp.country}
+                        </p>                      
                       </div>
                     </div>
 
-                    <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                    {/* <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
                       {exp.description}
-                    </p>
+                    </p> */}
 
                     <ul className="space-y-2">
                       {exp.achievements.map((achievement) => (

@@ -30,7 +30,7 @@ const projects = [
     title: "Smart Mobility Analytics",
     description:
       "Plateforme d'analyse de donnees de trajets de taxis NYC. Pipeline ETL complet et dashboard Power BI.",
-    tech: ["Laravel 10", "Python", "Pandas", "Power BI", "Swagger"],
+    tech: ["Laravel 12", "Python", "Pandas", "Power BI", "Swagger"],
     featured: true,
     links: {
       demo: "#",
@@ -202,12 +202,12 @@ export function Projects() {
                 {project.title}
               </h4>
 
-              <p className="text-xs text-muted-foreground line-clamp-2 mb-3">
+              <p className="text-xs text-muted-foreground mb-3">
                 {project.description}
               </p>
 
               <div className="flex flex-wrap gap-1">
-                {project.tech.slice(0, 2).map((tech) => (
+                {project.tech.slice(0, 6).map((tech) => (
                   <span
                     key={tech}
                     className="px-2 py-0.5 text-[10px] font-mono text-muted-foreground bg-secondary rounded"

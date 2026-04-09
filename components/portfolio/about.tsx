@@ -71,14 +71,12 @@ export function About() {
 
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
               <p>
-                Développeur backend passionné par la création d&apos;APIs performantes et de 
-                systèmes de gestion complexes. Mon expertise couvre le développement 
+                Développeur backend avec plus de deux ans d'expérience et passionné par la création d&apos;APIs performantes, mon expertise s'appuie sur la maîtrise de 
                 Laravel, Node.js, ainsi que l&apos;analyse de données avec Python et Power BI.
               </p>
               <p>
-                Je m&apos;intéresse particulièrement aux architectures clean code et aux 
-                systèmes de traçabilité supply chain. Chaque projet est une opportunité
-                d&apos;apprendre et de créer des solutions innovantes.
+                Je m’intéresse à la conception d’applications bien structurées, en mettant l’accent sur des architectures propres et maintenables. Mon objectif
+                est de concevoir des solutions fiables, évolutives et adaptées aux besoins réels des utilisateurs.
               </p>
             </div>
 

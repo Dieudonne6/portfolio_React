@@ -34,8 +34,8 @@ export function Hero() {
         </div>
 
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Passionné par la création de solutions backend robustes et performantes.
-          Je transforme vos idées en applications scalables et sécurisées.
+          Passionné par la création de solutions backend robustes et performantes,
+          je transforme vos idées en applications fluides et flexibles.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
