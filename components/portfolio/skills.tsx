@@ -125,6 +125,7 @@ const skillCategories = [
     icon: "chart",
     skills: [
       { name: "MySQL", level: "proficient" },
+      { name: "MongoDB", level: "proficient" },
       { name: "PostgreSQL", level: "proficient" },
       { name: "Power BI", level: "intermediate" },
       { name: "Data Modeling", level: "intermediate" },
@@ -140,7 +141,7 @@ const skillCategories = [
       { name: "Insomnia", level: "proficient" },
       { name: "VS Code", level: "proficient" },
       { name: "Jupyter", level: "intermediate" },
-      { name: "CI/CD", level: "exploring" },
+      { name: "CI/CD", level: "intermediate" },
       // { name: "Testing", level: "intermediate" },
     ],
   },

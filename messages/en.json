@@ -1,0 +1,246 @@
+{
+  "siteName": "Franck AYENAN",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Welcome to my portfolio",
+    "name": "I am Franck AYENAN",
+    "role": "Specialized in Laravel & Node.js",
+    "subtitle": "Passionate about building robust and high-performance backend solutions, I turn your ideas into smooth and flexible applications.",
+    "ctaContact": "Contact me",
+    "ctaCV": "Download CV"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Who am I?",
+    "name": "AYENAN D. K. Franck Dieu-donné",
+    "role": "Backend Developer",
+    "description1": "Backend developer with more than two years of experience and passionate about building high-performance APIs. My expertise is based on Laravel, Node.js, as well as data analysis with Python and Power BI.",
+    "description2": "I am interested in designing well-structured applications, with a strong focus on clean and maintainable architecture. My goal is to build reliable, scalable solutions adapted to real user needs.",
+    "stats": [
+      { "value": "6+", "label": "Projects" },
+      { "value": "4", "label": "Certifications" },
+      { "value": "2+", "label": "Years XP" }
+    ],
+    "highlights": [
+      "Backend Development",
+      "RESTful APIs with Laravel & Node.js",
+      "Database",
+      "PostgreSQL, MySQL, optimization",
+      "Architecture",
+      "Clean Code, Design Patterns",
+      "Data",
+      "Python, Pandas, Power BI"
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My technical skills",
+    "levels": {
+      "proficient": "Proficient",
+      "intermediate": "Intermediate",
+      "exploring": "Exploring",
+      "familiar": "Familiar"
+    },
+    "categories": [
+      {
+        "title": "Languages & Core Tech",
+        "icon": "code",
+        "skills": ["PHP", "JavaScript", "SQL", "HTML", "CSS", "Python"]
+      },
+      {
+        "title": "Frameworks & Architecture",
+        "icon": "architecture",
+        "skills": ["Laravel", "Node.js", "RESTful APIs", "Pandas", "NumPy", "Matplotlib", "Swagger", "Docker"]
+      },
+      {
+        "title": "Databases & Analytics",
+        "icon": "database",
+        "skills": ["MySQL", "PostgreSQL", "Power BI", "Data Modeling", "Query Optimization"]
+      },
+      {
+        "title": "DevOps & Tools",
+        "icon": "tools",
+        "skills": ["Git/GitHub", "Postman", "Insomnia", "VS Code", "Jupyter", "CI/CD"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My professional journey",
+    "items": [
+      {
+        "period": "Feb 2024 – Present",
+        "title": "Web Developer",
+        "company": "C BOX Sarl",
+        "location": "Cotonou, Benin",
+        "bullets": [
+          "Designed and developed REST APIs with Laravel, structuring business logic to simplify processing and avoid inconsistencies.",
+          "Integrated third-party APIs to handle user actions and keep data updated accordingly.",
+          "Diagnosed and fixed issues while continuously improving application stability.",
+          "Implemented real-time notification systems to improve user experience.",
+          "Designed and structured secure REST API architectures (role management, authentication, data validation)."
+        ]
+      },
+      {
+        "period": "Feb 2023 – May 2023",
+        "title": "Academic Internship (Full Stack Developer)",
+        "company": "TPAPY Consult",
+        "location": "Porto-Novo, Benin",
+        "bullets": [
+          "Developed mobile interfaces with Flutter.",
+          "Contributed to web application development with Laravel while following a clear and maintainable architecture.",
+          "Set up test scenarios to validate features before production release.",
+          "Contributed to the design of modules based on user needs."
+        ]
+      },
+      {
+        "period": "June 2022 – Sep 2022",
+        "title": "Academic Internship (WordPress Developer)",
+        "company": "C BOX Sarl",
+        "location": "Cotonou, Benin",
+        "bullets": [
+          "Designed and deployed websites using WordPress.",
+          "Customised themes and plugins to meet specific functional requirements.",
+          "Improved site visibility through SEO optimisation.",
+          "Analysed needs and modelled features in the early stages."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "My work",
+    "description": "A selection of projects demonstrating my skills in API design and backend architecture.",
+    "featuredLabel": "Featured",
+    "buttons": {
+      "demo": "Demo",
+      "code": "Code",
+      "internal": "Internal project"
+    },
+    "items": [
+      {
+        "title": "EcoTrack API",
+        "description": "Supply chain traceability system with QR codes and GPS checkpoints. Logistic fraud detection and IoT support.",
+        "tech": ["Laravel 12", "PostgreSQL", "UUID", "QR Code"],
+        "featured": true
+      },
+      {
+        "title": "Smart Mobility Analytics",
+        "description": "NYC taxi trip data analysis platform. Complete ETL pipeline and Power BI dashboard.",
+        "tech": ["Laravel 12", "Python", "Pandas", "Power BI", "Swagger"],
+        "featured": true
+      },
+      {
+        "title": "ProjetLivre API",
+        "description": "REST API for a book e-commerce platform. Sanctum authentication, cart management, payments, and automatic balance transfer.",
+        "tech": ["Laravel 10", "Docker", "PostgreSQL", "Sanctum", "Swagger"]
+      },
+      {
+        "title": "ForYou API",
+        "description": "Complete VTC application API. GPS distance calculation, fare estimation, multi-method payments, and FCM notifications, etc.",
+        "tech": ["Laravel", "FCM", "GPS", "Payment Gateway", "Swagger"],
+        "internal": true
+      },
+      {
+        "title": "GesCom",
+        "description": "Commercial management system for shops. Incoming/outgoing management, invoicing, and stock alerts.",
+        "tech": ["Laravel", "MySQL", "Real-time"]
+      },
+      {
+        "title": "Pomemon API",
+        "description": "CRUD in Node.js with Sequelize for a card collection app. JWT authentication and Swagger documentation.",
+        "tech": ["Node.js", "JavaScript", "Sequelize", "Swagger"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "My academic background",
+    "items": [
+      {
+        "period": "2020 - 2023",
+        "location": "Benin, Abomey-Calavi",
+        "degree": "Bachelor’s Degree in Computer and Software Systems",
+        "school": "Institut Universitaire Les Cours SONOU",
+        "description": "Training in software development, databases, algorithms, computer project management, etc.",
+        "thesisLabel": "Thesis topic",
+        "thesis": "Setting up a platform for service and product offers for artisans: the case of Benin",
+        "grade": "Grade: 16/20, Very Good",
+        "subjects": [
+          "General Mathematics",
+          "Algorithms",
+          "Advanced Algorithms",
+          "Linear Algebra",
+          "Number Systems",
+          "Operations Research",
+          "Data Structures",
+          "OOP",
+          "Relational Databases",
+          "UML",
+          "Databases and SQL",
+          "Project Management"
+        ]
+      },
+      {
+        "period": "2016 - 2020",
+        "location": "Benin, Dassa-Zoumé",
+        "degree": "Scientific Baccalaureate",
+        "school": "College d'Enseignement Général de Dassa-Zoumé",
+        "description": "Obtained the D baccalaureate.",
+        "subjects": ["Mathematics", "Physics", "Science"]
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "subtitle": "My certifications",
+    "verified": "Verified",
+    "issuedBy": "Issued by",
+    "view": "View certification",
+    "items": [
+      { "name": "Google Analytics 4", "issuer": "Google", "date": "2026", "id": "GA4-2026" },
+      { "name": "Problem Solving (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "PS-INT-2026" },
+      { "name": "REST API (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "API-INT-2026" },
+      { "name": "SQL (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "SQL-INT-2026" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "description": "Do you have a project in mind or an opportunity to discuss? Feel free to contact me.",
+    "information": {
+      "email": "Email",
+      "location": "Location",
+      "github": "GitHub",
+      "follow": "Follow me on social media"
+    },
+    "form": {
+      "title": "Send me a message",
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Message subject",
+      "message": "Message",
+      "messagePlaceholder": "Describe your project or opportunity...",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "name": "Franck AYENAN",
+    "tagline": "Backend Developer passionate about building robust and high-performance solutions.",
+    "navigation": "Navigation",
+    "technologies": "Technologies",
+    "follow": "Follow me",
+    "copyright": "2026 Franck AYENAN, in Benin"
+  }
+}

@@ -1,5 +1,6 @@
 "use client"
 
+import { tr } from "date-fns/locale"
 import { ExternalLink, Github, Folder } from "lucide-react"
 import Link from "next/link"
 
@@ -10,9 +11,34 @@ const projects = [
       "API REST pour une plateforme d'e-commerce de livres. Authentification Sanctum, gestion du panier, paiement et transfert automatique du solde.",
     tech: ["Laravel 10", "Docker", "PostgreSQL", "Sanctum", "Swagger"],
     featured: false,
+    internal: false,
     links: {
       demo: "https://projetlivre-3.onrender.com/api/documentation",
       github: "https://github.com/Dieudonne6/ProjetLivre.git",
+    },
+  },
+  {
+    title: "ForYou API",
+    description:
+      "API pour application VTC complete. Calcul de distance GPS via Google Maps, estimation de prix, paiements multi-methodes et notifications FCM avec Firebase, etc.",
+    tech: ["Laravel", "FCM", "Google Maps", "Firebase", "Payment Gateway", "Swagger"],
+    internal: true,
+    featured: true,
+    links: {
+      demo: null,
+      github: null,
+    },
+  },
+  {
+    title: "SchoolBox",
+    description:
+      "Une application web de gestion scolaire complète (de l'inscription jusqu'à l'émission des bulletins de notes) avec l'intégration de l'API de facturation de la DGI du Bénin pour les factures normalisées.",
+    tech: ["Laravel", "MySQL", "API e-mecef DGI"],
+    internal: true,
+    featured: true,
+    links: {
+      demo: null,
+      github: null,
     },
   },
   {
@@ -20,7 +46,7 @@ const projects = [
     description:
       "Systeme de tracabilite supply chain avec QR codes et checkpoints GPS. Detection de fraude logistique et support IoT.",
     tech: ["Laravel 12", "PostgreSQL", "UUID", "QR Code"],
-    featured: true,
+    featured: false,
     links: {
       demo: "#",
       github: "https://github.com/Dieudonne6/",
@@ -29,31 +55,19 @@ const projects = [
   {
     title: "Smart Mobility Analytics",
     description:
-      "Plateforme d'analyse de donnees de trajets de taxis NYC. Pipeline ETL complet et dashboard Power BI.",
+      "Plateforme d'analyse de donnees de trajets de taxis NYC. Pipeline ETL complet et dashboard Power BI montrant les resultats.",
     tech: ["Laravel 12", "Python", "Pandas", "Power BI", "Swagger"],
-    featured: true,
+    featured: false,
     links: {
       demo: "#",
       github: "https://github.com/Dieudonne6/",
-    },
-  },
-  {
-    title: "ForYou API",
-    description:
-      "API pour application VTC complete. Calcul de distance GPS, estimation de prix, paiements multi-methodes et notifications FCM, etc.",
-    tech: ["Laravel", "FCM", "GPS", "Payment Gateway", "Swagger"],
-    featured: false,
-    internal: true,
-    links: {
-      demo: null,
-      github: null,
     },
   },
   {
     title: "GesCom",
     description:
-      "Systeme de gestion commerciale pour boutiques. Gestion des entrees/sorties, facturation et alertes de stock.",
-    tech: ["Laravel", "MySQL", "Real-time"],
+      "Système de gestion commerciale pour boutiques permettant le suivi des stocks en temps réel, la gestion des entrées/sorties et la facturation, avec alertes pour prévenir les ruptures de stock.",
+    tech: ["Laravel", "MySQL", "API e-mecef DGI"],
     featured: false,
     internal: true,
     links: {
@@ -61,17 +75,17 @@ const projects = [
       github: null,
     },
   },
-  {
-    title: "Pomemon API",
-    description:
-      "CRUD en node js avec Sequelize pour une application de collection de cartes. Authentification JWT et documentation Swagger.",
-    tech: ["node js", "JavaScript", "Sequelize", "Swagger"],
-    featured: false,
-    links: {
-      demo: "#",
-      github: "https://github.com/Dieudonne6/",
-    },
-  },
+  // {
+  //   title: "Pomemon API",
+  //   description:
+  //     "CRUD en node js avec Sequelize pour une application de collection de cartes. Authentification JWT et documentation Swagger.",
+  //   tech: ["node js", "JavaScript", "Sequelize", "Swagger"],
+  //   featured: false,
+  //   links: {
+  //     demo: "#",
+  //     github: "https://github.com/Dieudonne6/",
+  //   },
+  // },
 ]
 
 export function Projects() {
@@ -125,9 +139,23 @@ export function Projects() {
                   </div>
                 </div>
 
-                <span className="inline-block px-2 py-1 text-xs font-medium text-primary bg-primary/10 rounded mb-3">
+                {/* <span className="inline-block px-2 py-1 text-xs font-medium text-primary bg-primary/10 rounded mb-3">
                   Featured
-                </span>
+                </span> */}
+
+                <div className="flex gap-2 mb-3">
+                  {project.featured && (
+                    <span className="px-2 py-1 text-xs font-medium text-primary bg-primary/10 rounded">
+                      Featured
+                    </span>
+                  )}
+
+                  {project.internal && (
+                    <span className="px-2 py-1 text-xs font-medium text-yellow-400 bg-yellow-400/10 rounded">
+                      Projet interne
+                    </span>
+                  )}
+                </div>  
 
                 <h3 className="text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
                   {project.title}
