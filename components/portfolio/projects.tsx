@@ -59,7 +59,7 @@ const projects = [
     tech: ["Laravel 12", "Python", "Pandas", "Power BI", "Swagger"],
     featured: false,
     links: {
-      demo: "#",
+      demo: null,
       github: "https://github.com/Dieudonne6/",
     },
   },
