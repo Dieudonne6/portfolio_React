@@ -4,7 +4,7 @@ import { Briefcase, Calendar } from "lucide-react"
 
 const experiences = [
   {
-    period: "Fév 2024 – Présent",
+    period: "Fév 2024 – Mai 2026",
     title: "Développeur Web",
     company: "C BOX Sarl",
     country: "Cotonou, Benin",
@@ -33,7 +33,7 @@ const experiences = [
     ],
   },
   {
-    period: "Juin 2022 – Sep 2022",
+    period: "Juin 2022 – Sépt 2022",
     title: "Stage Académique (Développeur WordPress)",
     company: "C BOX Sarl",
     country: "Cotonou, Benin",

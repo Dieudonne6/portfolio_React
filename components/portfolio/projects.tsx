@@ -49,7 +49,7 @@ const projects = [
     featured: false,
     links: {
       demo: "#",
-      github: "https://github.com/Dieudonne6/",
+      github: "https://github.com/Dieudonne6/eco_track_api",
     },
   },
   {
@@ -60,7 +60,7 @@ const projects = [
     featured: false,
     links: {
       demo: null,
-      github: "https://github.com/Dieudonne6/",
+      github: "https://github.com/Dieudonne6/smart_mobility_api",
     },
   },
   {
@@ -72,7 +72,7 @@ const projects = [
     internal: true,
     links: {
       demo: null,
-      github: null,
+      github: "https://github.com/Dieudonne6/GestionCommerciale",
     },
   },
   // {
