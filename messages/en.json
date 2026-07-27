@@ -14,6 +14,11 @@
     "welcome": "Welcome to my portfolio",
     "name": "I am Franck AYENAN",
     "role": "Specialized in Laravel & Node.js",
+    "words": [
+      "Backend Developer",
+      "Specialized in Laravel & Node.js",
+      "Data Enthusiast"
+    ],
     "subtitle": "Passionate about building robust and high-performance backend solutions, I turn your ideas into smooth and flexible applications.",
     "ctaContact": "Contact me",
     "ctaCV": "Download CV"
@@ -26,9 +31,18 @@
     "description1": "Backend developer with more than two years of experience and passionate about building high-performance APIs. My expertise is based on Laravel, Node.js, as well as data analysis with Python and Power BI.",
     "description2": "I am interested in designing well-structured applications, with a strong focus on clean and maintainable architecture. My goal is to build reliable, scalable solutions adapted to real user needs.",
     "stats": [
-      { "value": "6+", "label": "Projects" },
-      { "value": "4", "label": "Certifications" },
-      { "value": "2+", "label": "Years XP" }
+      {
+        "value": "6+",
+        "label": "Projects"
+      },
+      {
+        "value": "4",
+        "label": "Certifications"
+      },
+      {
+        "value": "2+",
+        "label": "Years XP"
+      }
     ],
     "highlights": [
       "Backend Development",
@@ -54,22 +68,51 @@
       {
         "title": "Languages & Core Tech",
         "icon": "code",
-        "skills": ["PHP", "JavaScript", "SQL", "HTML", "CSS", "Python"]
+        "skills": [
+          "PHP",
+          "JavaScript",
+          "SQL",
+          "HTML",
+          "CSS",
+          "Python"
+        ]
       },
       {
         "title": "Frameworks & Architecture",
         "icon": "architecture",
-        "skills": ["Laravel", "Node.js", "RESTful APIs", "Pandas", "NumPy", "Matplotlib", "Swagger", "Docker"]
+        "skills": [
+          "Laravel",
+          "Node.js",
+          "RESTful APIs",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Swagger",
+          "Docker"
+        ]
       },
       {
         "title": "Databases & Analytics",
         "icon": "database",
-        "skills": ["MySQL", "PostgreSQL", "Power BI", "Data Modeling", "Query Optimization"]
+        "skills": [
+          "MySQL",
+          "PostgreSQL",
+          "Power BI",
+          "Data Modeling",
+          "Query Optimization"
+        ]
       },
       {
         "title": "DevOps & Tools",
         "icon": "tools",
-        "skills": ["Git/GitHub", "Postman", "Insomnia", "VS Code", "Jupyter", "CI/CD"]
+        "skills": [
+          "Git/GitHub",
+          "Postman",
+          "Insomnia",
+          "VS Code",
+          "Jupyter",
+          "CI/CD"
+        ]
       }
     ]
   },
@@ -130,37 +173,70 @@
       {
         "title": "EcoTrack API",
         "description": "Supply chain traceability system with QR codes and GPS checkpoints. Logistic fraud detection and IoT support.",
-        "tech": ["Laravel 12", "PostgreSQL", "UUID", "QR Code"],
+        "tech": [
+          "Laravel 12",
+          "PostgreSQL",
+          "UUID",
+          "QR Code"
+        ],
         "featured": true
       },
       {
         "title": "Smart Mobility Analytics",
         "description": "NYC taxi trip data analysis platform. Complete ETL pipeline and Power BI dashboard.",
-        "tech": ["Laravel 12", "Python", "Pandas", "Power BI", "Swagger"],
+        "tech": [
+          "Laravel 12",
+          "Python",
+          "Pandas",
+          "Power BI",
+          "Swagger"
+        ],
         "featured": true
+      },
+      {
+        "title": "SchoolBox",
+        "description": "A complete school management web application (from enrollment to report card generation), integrating Benin's DGI invoicing API for certified invoices.",
+        "tech": [
+          "Laravel",
+          "MySQL",
+          "DGI e-mecef API"
+        ],
+        "internal": true
       },
       {
         "title": "ProjetLivre API",
         "description": "REST API for a book e-commerce platform. Sanctum authentication, cart management, payments, and automatic balance transfer.",
-        "tech": ["Laravel 10", "Docker", "PostgreSQL", "Sanctum", "Swagger"]
+        "tech": [
+          "Laravel 10",
+          "Docker",
+          "PostgreSQL",
+          "Sanctum",
+          "Swagger"
+        ]
       },
       {
         "title": "ForYou API",
         "description": "Complete VTC application API. GPS distance calculation, fare estimation, multi-method payments, and FCM notifications, etc.",
-        "tech": ["Laravel", "FCM", "GPS", "Payment Gateway", "Swagger"],
+        "tech": [
+          "Laravel",
+          "FCM",
+          "GPS",
+          "Payment Gateway",
+          "Swagger"
+        ],
         "internal": true
       },
       {
         "title": "GesCom",
         "description": "Commercial management system for shops. Incoming/outgoing management, invoicing, and stock alerts.",
-        "tech": ["Laravel", "MySQL", "Real-time"]
-      },
-      {
-        "title": "Pomemon API",
-        "description": "CRUD in Node.js with Sequelize for a card collection app. JWT authentication and Swagger documentation.",
-        "tech": ["Node.js", "JavaScript", "Sequelize", "Swagger"]
+        "tech": [
+          "Laravel",
+          "MySQL",
+          "Real-time"
+        ]
       }
-    ]
+    ],
+    "otherLabel": "Other projects"
   },
   "education": {
     "title": "Education",
@@ -196,7 +272,11 @@
         "degree": "Scientific Baccalaureate",
         "school": "College d'Enseignement Général de Dassa-Zoumé",
         "description": "Obtained the D baccalaureate.",
-        "subjects": ["Mathematics", "Physics", "Science"]
+        "subjects": [
+          "Mathematics",
+          "Physics",
+          "Science"
+        ]
       }
     ]
   },
@@ -207,10 +287,30 @@
     "issuedBy": "Issued by",
     "view": "View certification",
     "items": [
-      { "name": "Google Analytics 4", "issuer": "Google", "date": "2026", "id": "GA4-2026" },
-      { "name": "Problem Solving (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "PS-INT-2026" },
-      { "name": "REST API (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "API-INT-2026" },
-      { "name": "SQL (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "SQL-INT-2026" }
+      {
+        "name": "Google Analytics 4",
+        "issuer": "Google",
+        "date": "2026",
+        "id": "GA4-2026"
+      },
+      {
+        "name": "Problem Solving (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "2026",
+        "id": "PS-INT-2026"
+      },
+      {
+        "name": "REST API (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "2026",
+        "id": "API-INT-2026"
+      },
+      {
+        "name": "SQL (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "2026",
+        "id": "SQL-INT-2026"
+      }
     ]
   },
   "contact": {
@@ -233,7 +333,10 @@
       "message": "Message",
       "messagePlaceholder": "Describe your project or opportunity...",
       "submit": "Send message"
-    }
+    },
+    "informationsTitle": "Information",
+    "successAlert": "Message sent successfully ✅",
+    "errorAlert": "Error while sending ❌"
   },
   "footer": {
     "name": "Franck AYENAN",

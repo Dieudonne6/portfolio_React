@@ -14,6 +14,11 @@
     "welcome": "Bienvenue sur mon portfolio",
     "name": "Je suis Franck AYENAN",
     "role": "Spécialisé en Laravel & Node.js",
+    "words": [
+      "Développeur Backend",
+      "Spécialisé en Laravel & Node.js",
+      "Passionné de Data"
+    ],
     "subtitle": "Passionné par la création de solutions backend robustes et performantes, je transforme vos idées en applications fluides et flexibles.",
     "ctaContact": "Me contacter",
     "ctaCV": "Télécharger CV"
@@ -26,9 +31,18 @@
     "description1": "Développeur backend avec plus de deux ans d'expérience et passionné par la création d'APIs performantes, mon expertise s'appuie sur la maîtrise de Laravel, Node.js, ainsi que l'analyse de données avec Python et Power BI.",
     "description2": "Je m’intéresse à la conception d’applications bien structurées, en mettant l’accent sur des architectures propres et maintenables. Mon objectif est de concevoir des solutions fiables, évolutives et adaptées aux besoins réels des utilisateurs.",
     "stats": [
-      { "value": "6+", "label": "Projets" },
-      { "value": "4", "label": "Certifications" },
-      { "value": "2+", "label": "Annees XP" }
+      {
+        "value": "6+",
+        "label": "Projets"
+      },
+      {
+        "value": "4",
+        "label": "Certifications"
+      },
+      {
+        "value": "2+",
+        "label": "Annees XP"
+      }
     ],
     "highlights": [
       "Backend Development",
@@ -54,22 +68,51 @@
       {
         "title": "Languages et Core Tech",
         "icon": "code",
-        "skills": ["PHP", "JavaScript", "SQL", "HTML", "CSS", "Python"]
+        "skills": [
+          "PHP",
+          "JavaScript",
+          "SQL",
+          "HTML",
+          "CSS",
+          "Python"
+        ]
       },
       {
         "title": "Frameworks et Architecture",
         "icon": "architecture",
-        "skills": ["Laravel", "Node.js", "RESTful APIs", "Pandas", "NumPy", "Matplotlib", "Swagger", "Docker"]
+        "skills": [
+          "Laravel",
+          "Node.js",
+          "RESTful APIs",
+          "Pandas",
+          "NumPy",
+          "Matplotlib",
+          "Swagger",
+          "Docker"
+        ]
       },
       {
         "title": "Base de données & Analytics",
         "icon": "database",
-        "skills": ["MySQL", "PostgreSQL", "Power BI", "Data Modeling", "Query Optimization"]
+        "skills": [
+          "MySQL",
+          "PostgreSQL",
+          "Power BI",
+          "Data Modeling",
+          "Query Optimization"
+        ]
       },
       {
         "title": "DevOps & Outils",
         "icon": "tools",
-        "skills": ["Git/GitHub", "Postman", "Insomnia", "VS Code", "Jupyter", "CI/CD"]
+        "skills": [
+          "Git/GitHub",
+          "Postman",
+          "Insomnia",
+          "VS Code",
+          "Jupyter",
+          "CI/CD"
+        ]
       }
     ]
   },
@@ -130,37 +173,70 @@
       {
         "title": "EcoTrack API",
         "description": "Systeme de tracabilite supply chain avec QR codes et checkpoints GPS. Detection de fraude logistique et support IoT.",
-        "tech": ["Laravel 12", "PostgreSQL", "UUID", "QR Code"],
+        "tech": [
+          "Laravel 12",
+          "PostgreSQL",
+          "UUID",
+          "QR Code"
+        ],
         "featured": true
       },
       {
         "title": "Smart Mobility Analytics",
         "description": "Plateforme d'analyse de donnees de trajets de taxis NYC. Pipeline ETL complet et dashboard Power BI.",
-        "tech": ["Laravel 12", "Python", "Pandas", "Power BI", "Swagger"],
+        "tech": [
+          "Laravel 12",
+          "Python",
+          "Pandas",
+          "Power BI",
+          "Swagger"
+        ],
         "featured": true
+      },
+      {
+        "title": "SchoolBox",
+        "description": "Une application web de gestion scolaire complète (de l'inscription jusqu'à l'émission des bulletins de notes) avec l'intégration de l'API de facturation de la DGI du Bénin pour les factures normalisées.",
+        "tech": [
+          "Laravel",
+          "MySQL",
+          "API e-mecef DGI"
+        ],
+        "internal": true
       },
       {
         "title": "ProjetLivre API",
         "description": "API REST pour une plateforme d'e-commerce de livres. Authentification Sanctum, gestion du panier, paiement et transfert automatique du solde.",
-        "tech": ["Laravel 10", "Docker", "PostgreSQL", "Sanctum", "Swagger"]
+        "tech": [
+          "Laravel 10",
+          "Docker",
+          "PostgreSQL",
+          "Sanctum",
+          "Swagger"
+        ]
       },
       {
         "title": "ForYou API",
         "description": "API pour application VTC complete. Calcul de distance GPS, estimation de prix, paiements multi-methodes et notifications FCM, etc.",
-        "tech": ["Laravel", "FCM", "GPS", "Payment Gateway", "Swagger"],
+        "tech": [
+          "Laravel",
+          "FCM",
+          "GPS",
+          "Payment Gateway",
+          "Swagger"
+        ],
         "internal": true
       },
       {
         "title": "GesCom",
         "description": "Systeme de gestion commerciale pour boutiques. Gestion des entrees/sorties, facturation et alertes de stock.",
-        "tech": ["Laravel", "MySQL", "Real-time"]
-      },
-      {
-        "title": "Pomemon API",
-        "description": "CRUD en node js avec Sequelize pour une application de collection de cartes. Authentification JWT et documentation Swagger.",
-        "tech": ["node js", "JavaScript", "Sequelize", "Swagger"]
+        "tech": [
+          "Laravel",
+          "MySQL",
+          "Real-time"
+        ]
       }
-    ]
+    ],
+    "otherLabel": "Autres projets"
   },
   "education": {
     "title": "Formation",
@@ -196,7 +272,11 @@
         "degree": "Baccalaureat Scientifique",
         "school": "College d'Enseignement Général de Dassa-Zoumé",
         "description": "Obtention du baccalaureat D.",
-        "subjects": ["Mathematiques", "Physique", "Sciences"]
+        "subjects": [
+          "Mathematiques",
+          "Physique",
+          "Sciences"
+        ]
       }
     ]
   },
@@ -207,10 +287,30 @@
     "issuedBy": "Delivre par",
     "view": "Voir la certification",
     "items": [
-      { "name": "Google Analytics 4", "issuer": "Google", "date": "2026", "id": "GA4-2026" },
-      { "name": "Problem Solving (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "PS-INT-2026" },
-      { "name": "REST API (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "API-INT-2026" },
-      { "name": "SQL (Intermediate)", "issuer": "HackerRank", "date": "2026", "id": "SQL-INT-2026" }
+      {
+        "name": "Google Analytics 4",
+        "issuer": "Google",
+        "date": "2026",
+        "id": "GA4-2026"
+      },
+      {
+        "name": "Problem Solving (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "2026",
+        "id": "PS-INT-2026"
+      },
+      {
+        "name": "REST API (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "2026",
+        "id": "API-INT-2026"
+      },
+      {
+        "name": "SQL (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "2026",
+        "id": "SQL-INT-2026"
+      }
     ]
   },
   "contact": {
@@ -233,7 +333,10 @@
       "message": "Message",
       "messagePlaceholder": "Decrivez votre projet ou opportunite...",
       "submit": "Envoyer le message"
-    }
+    },
+    "informationsTitle": "Informations",
+    "successAlert": "Message envoyé avec succès ✅",
+    "errorAlert": "Erreur lors de l'envoi ❌"
   },
   "footer": {
     "name": "Franck AYENAN",
@@ -244,3 +347,4 @@
     "copyright": "2026 Franck AYENAN, au Benin"
   }
 }
+
