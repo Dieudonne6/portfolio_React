@@ -182,10 +182,12 @@ const skillCategories = [
     skills: [
       { name: "Laravel", level: "proficient" },
       { name: "Node.js", level: "intermediate" },
+      { name: "FastAPI", level: "intermediate" },
       { name: "RESTful APIs", level: "proficient" },
       { name: "Pandas", level: "intermediate" },
       { name: "NumPy", level: "intermediate" },
       { name: "Matplotlib", level: "intermediate" },
+      { name: "XGBoost", level: "exploring" },
       { name: "Swagger", level: "intermediate" },
       { name: "Docker", level: "intermediate" },
     ],

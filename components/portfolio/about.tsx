@@ -158,7 +158,10 @@ export function About() {
                 <span className="text-sm font-medium text-primary">Laravel</span>
               </div>
               <div className="absolute -bottom-4 -left-4 px-4 py-2 bg-card border border-border rounded-lg shadow-lg">
-                <span className="text-sm font-medium text-primary">Node.js</span>
+                <span className="text-sm font-medium text-primary">FastAPI</span>
+              </div>
+              <div className="absolute -top-4 -left-4 px-4 py-2 bg-card border border-border rounded-lg shadow-lg">
+                <span className="text-sm font-medium text-primary">Power BI</span>
               </div>
             </div>
           </div>
