@@ -15,7 +15,7 @@
     "name": "I am Franck AYENAN",
     "role": "Specialized in Laravel & Node.js",
     "words": [
-      "Backend Developer & Data Analyst",
+      "Backend Developer",
       "Specialized in Laravel & Node.js",
       "Passionate about data and analytics"
     ],
@@ -27,8 +27,8 @@
     "title": "About",
     "subtitle": "Who am I?",
     "name": "AYENAN D. K. Franck Dieu-donné",
-    "role": "Backend Developer & Data Analyst",
-    "description1": "Backend developer with more than three years of experience and passionate about building high-performance APIs. My expertise is based on Laravel, Node.js, as well as data analysis with Python and Power BI.",
+    "role": "Backend Developer",
+    "description1": "Backend developer with more than two years of experience and passionate about building high-performance APIs. My expertise is based on Laravel, Node.js, as well as data analysis with Python and Power BI.",
     "description2": "I am interested in designing well-structured applications, with a strong focus on clean and maintainable architecture. My goal is to build reliable, scalable solutions adapted to real user needs.",
     "stats": [
       {
@@ -83,12 +83,10 @@
         "skills": [
           "Laravel",
           "Node.js",
-          "FastAPI",
           "RESTful APIs",
           "Pandas",
           "NumPy",
           "Matplotlib",
-          "XGBoost",
           "Swagger",
           "Docker"
         ]
@@ -123,8 +121,8 @@
     "subtitle": "My professional journey",
     "items": [
       {
-        "period": "Feb 2024 – Present",
-        "title": "Web Developer & Data Analyst",
+        "period": "Feb 2024 – Jul 2026",
+        "title": "Web Developer",
         "company": "C BOX Sarl",
         "location": "Cotonou, Benin",
         "bullets": [
