@@ -1,6 +1,6 @@
 # 💼 Portfolio — Franck AYENAN
 
-Personal portfolio built with **Next.js** and **React**, showcasing my background, skills, and projects as a backend developer.
+Personal portfolio built with **Next.js** and **React**, showcasing my background, skills, and projects as a Wab developer.
 
 ---
 
@@ -41,7 +41,7 @@ The site is available at `https://franck-ayenan.vercel.app/`.
 ## 👨‍💻 Author
 
 **Franck Dieu-donné AYENAN**
-Backend Developer
+Web Developer
 
 
 

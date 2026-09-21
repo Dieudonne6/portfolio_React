@@ -15,11 +15,11 @@
     "name": "I am Franck AYENAN",
     "role": "Specialized in Laravel & Node.js",
     "words": [
-      "Backend Developer",
+      "Web Developer",
       "Specialized in Laravel & Node.js",
       "Passionate about data and analytics"
     ],
-    "subtitle": "Passionate about building robust and high-performance backend solutions, I turn your ideas into smooth and flexible applications.",
+    "subtitle": "Passionate about building robust and high-performance web applications, I turn your ideas into smooth and flexible applications.",
     "ctaContact": "Contact me",
     "ctaCV": "Download CV"
   },
@@ -27,8 +27,8 @@
     "title": "About",
     "subtitle": "Who am I?",
     "name": "AYENAN D. K. Franck Dieu-donné",
-    "role": "Backend Developer",
-    "description1": "Backend developer with more than two years of experience and passionate about building high-performance APIs. My expertise is based on Laravel, Node.js, as well as data analysis with Python and Power BI.",
+    "role": "Web Developer",
+    "description1": "Web developer with more than two years of experience and passionate about building high-performance web applications. My expertise is based on Laravel, Node.js, as well as data analysis with Python and Power BI.",
     "description2": "I am interested in designing well-structured applications, with a strong focus on clean and maintainable architecture. My goal is to build reliable, scalable solutions adapted to real user needs.",
     "stats": [
       {
@@ -121,11 +121,12 @@
     "subtitle": "My professional journey",
     "items": [
       {
-        "period": "Feb 2024 – Jul 2026",
+        "period": "Feb 2024 – Present",
         "title": "Web Developer",
         "company": "C BOX Sarl",
         "location": "Cotonou, Benin",
         "bullets": [
+          "Contributed to web application development with Laravel and React.js, following a clear and maintainable architecture.",
           "Designed and developed REST APIs with Laravel, structuring business logic to simplify processing and avoid inconsistencies.",
           "Integrated third-party APIs to handle user actions and keep data updated accordingly.",
           "Diagnosed and fixed issues while continuously improving application stability.",
@@ -162,7 +163,7 @@
   "projects": {
     "title": "Projects",
     "subtitle": "My work",
-    "description": "A selection of projects demonstrating my skills in API design and backend architecture.",
+    "description": "A selection of projects demonstrating my skills in API design and web architecture.",
     "featuredLabel": "Featured",
     "buttons": {
       "demo": "Demo",
@@ -340,7 +341,7 @@
   },
   "footer": {
     "name": "Franck AYENAN",
-    "tagline": "Backend Developer passionate about building robust and high-performance solutions.",
+    "tagline": "Web Developer passionate about building robust and high-performance solutions.",
     "navigation": "Navigation",
     "technologies": "Technologies",
     "follow": "Follow me",

@@ -15,11 +15,11 @@
     "name": "Je suis Franck AYENAN",
     "role": "Spécialisé en Laravel & Node.js",
     "words": [
-      "Développeur Backend",
+      "Développeur Web",
       "Spécialisé en Laravel & Node.js",
       "Passionné de Data"
     ],
-    "subtitle": "Passionné par la création de solutions backend robustes et performantes, je transforme vos idées en applications fluides et flexibles.",
+    "subtitle": "Passionné par la création de solutions web robustes et performantes, je transforme vos idées en applications fluides et flexibles.",
     "ctaContact": "Me contacter",
     "ctaCV": "Télécharger CV"
   },
@@ -27,8 +27,8 @@
     "title": "A propos",
     "subtitle": "Qui suis-je ?",
     "name": "AYENAN D. K. Franck Dieu-donné",
-    "role": "Développeur Backend",
-    "description1": "Développeur backend avec plus de deux ans d'expérience et passionné par la création d'APIs performantes, mon expertise s'appuie sur la maîtrise de Laravel, Node.js, ainsi que l'analyse de données avec Python et Power BI.",
+    "role": "Développeur Web",
+    "description1": "Développeur web avec plus de deux ans d'expérience et passionné par la création d'applications performantes, mon expertise s'appuie sur la maîtrise de Laravel, Node.js, ainsi que l'analyse de données avec Python et Power BI.",
     "description2": "Je m’intéresse à la conception d’applications bien structurées, en mettant l’accent sur des architectures propres et maintenables. Mon objectif est de concevoir des solutions fiables, évolutives et adaptées aux besoins réels des utilisateurs.",
     "stats": [
       {
@@ -121,11 +121,12 @@
     "subtitle": "Mon parcours professionnel",
     "items": [
       {
-        "period": "Fév 2024 – Jul 2026",
+        "period": "Fév 2024 – Aujourd'hui",
         "title": "Développeur Web",
         "company": "C BOX Sarl",
         "location": "Cotonou, Benin",
         "bullets": [
+          "Contribution au développement d’application web avec Laravel et React.js, en respectant une architecture claire et maintenable.",
           "Conception et développement d’APIs REST avec Laravel, en structurant la logique métier pour simplifier les traitements et éviter les incohérences.",
           "Intégration d’APIs tierces pour traiter les actions utilisateurs et assurer la mise à jour des données en conséquence.",
           "Diagnostic et résolution d’anomalies avec une amélioration continue garantissant la stabilité des applications.",
@@ -162,7 +163,7 @@
   "projects": {
     "title": "Projets",
     "subtitle": "Mes réalisations",
-    "description": "Une selection de projets demontrant mes competences en conception d'APIs et architecture backend.",
+    "description": "Une selection de projets demontrant mes competences en conception d'APIs et applications web.",
     "featuredLabel": "Featured",
     "buttons": {
       "demo": "Demo",
@@ -340,7 +341,7 @@
   },
   "footer": {
     "name": "Franck AYENAN",
-    "tagline": "Développeur Backend et Data Analyst passionné par la création de solutions robustes et performantes.",
+    "tagline": "Développeur Web et Data Analyst passionné par la création de solutions robustes et performantes.",
     "navigation": "Navigation",
     "technologies": "Technologies",
     "follow": "Suivez-moi",
