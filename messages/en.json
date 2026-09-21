@@ -71,6 +71,7 @@
         "skills": [
           "PHP",
           "JavaScript",
+          "TypeScript",
           "SQL",
           "HTML",
           "CSS",
@@ -83,6 +84,7 @@
         "skills": [
           "Laravel",
           "Node.js",
+          "React.js",
           "RESTful APIs",
           "Pandas",
           "NumPy",

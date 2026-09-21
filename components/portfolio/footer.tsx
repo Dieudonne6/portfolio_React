@@ -165,6 +165,7 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4">{t("footer.technologies")}</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Laravel & PHP</li>
+              <li>React.js & TypeScript</li>
               <li>Node.js</li>
               <li>PostgreSQL & MySQL</li>
               <li>Python & Data Analytics</li>

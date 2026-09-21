@@ -171,6 +171,7 @@ const skillCategories = [
     skills: [
       { name: "PHP", level: "proficient" },
       { name: "JavaScript", level: "proficient" },
+      { name: "TypeScript", level: "intermediate" },
       { name: "SQL", level: "intermediate" },
       { name: "HTML", level: "proficient" },
       { name: "CSS", level: "proficient" },
@@ -182,6 +183,7 @@ const skillCategories = [
     skills: [
       { name: "Laravel", level: "proficient" },
       { name: "Node.js", level: "intermediate" },
+      { name: "React.js", level: "intermediate" },
       { name: "FastAPI", level: "intermediate" },
       { name: "RESTful APIs", level: "proficient" },
       { name: "Pandas", level: "intermediate" },
@@ -200,7 +202,7 @@ const skillCategories = [
       { name: "PostgreSQL", level: "proficient" },
       { name: "Power BI", level: "intermediate" },
       { name: "Data Modeling", level: "intermediate" },
-      { name: "Query Optimization", level: "exploring" },
+      { name: "Query Optimization", level: "intermediate" },
     ],
   },
   {
