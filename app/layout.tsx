@@ -11,8 +11,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Franck AYENAN | Web Developer',
-  description: 'Portfolio de Franck AYENAN - Developpeur Web specialise en Laravel, Node.js et Data Analytics',
+  title: 'Franck AYENAN | Développeur Fullstack',
+  description: 'Portfolio de Franck AYENAN - Développeur Fullstack spécialisé en Laravel, Node.js, React et Data Analytics',
   generator: 'v0.app',
   icons: {
     icon: [

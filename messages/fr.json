@@ -2,9 +2,9 @@
   "siteName": "Franck AYENAN",
   "nav": {
     "home": "Accueil",
-    "about": "A propos",
-    "skills": "Competences",
-    "experience": "Experience",
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Expérience",
     "projects": "Projets",
     "education": "Formation",
     "certifications": "Certifications",
@@ -15,20 +15,20 @@
     "name": "Je suis Franck AYENAN",
     "role": "Spécialisé en Laravel & Node.js",
     "words": [
-      "Développeur Web",
+      "Développeur Fullstack",
       "Spécialisé en Laravel & Node.js",
-      "Passionné de Data"
+      "Data enthusiast"
     ],
     "subtitle": "Passionné par la création de solutions web robustes et performantes, je transforme vos idées en applications fluides et flexibles.",
     "ctaContact": "Me contacter",
     "ctaCV": "Télécharger CV"
   },
   "about": {
-    "title": "A propos",
+    "title": "À propos",
     "subtitle": "Qui suis-je ?",
-    "name": "AYENAN D. K. Franck Dieu-donné",
-    "role": "Développeur Web",
-    "description1": "Développeur web avec plus de deux ans d'expérience et passionné par la création d'applications performantes, mon expertise s'appuie sur la maîtrise de Laravel, Node.js, ainsi que l'analyse de données avec Python et Power BI.",
+    "name": "Franck Dieu-Donné AYENAN",
+    "role": "Développeur Fullstack",
+    "description1": "Développeur fullstack et data enthusiast avec plus de deux ans d'expérience, passionné par la création d'applications robustes et performantes. Mon expertise s'appuie sur Laravel, Node.js et React, ainsi que sur l'analyse de données avec Python et Power BI.",
     "description2": "Je m’intéresse à la conception d’applications bien structurées, en mettant l’accent sur des architectures propres et maintenables. Mon objectif est de concevoir des solutions fiables, évolutives et adaptées aux besoins réels des utilisateurs.",
     "stats": [
       {
@@ -41,14 +41,14 @@
       },
       {
         "value": "2+",
-        "label": "Annees XP"
+        "label": "Années XP"
       }
     ],
     "highlights": [
       "Backend Development",
       "APIs RESTful avec Laravel & Node.js",
       "Base de données",
-      "PostgreSQL, MySQL, optimisation",
+      "PostgreSQL, MySQL, MongoDB",
       "Architecture",
       "Clean Code, Design Patterns",
       "Data",
@@ -66,7 +66,7 @@
     },
     "categories": [
       {
-        "title": "Languages et Core Tech",
+        "title": "Langages et Core Tech",
         "icon": "code",
         "skills": [
           "PHP",
@@ -85,6 +85,8 @@
           "Laravel",
           "Node.js",
           "React.js",
+          "Vue.js",
+          "Flutter",
           "RESTful APIs",
           "Pandas",
           "NumPy",
@@ -99,6 +101,7 @@
         "skills": [
           "MySQL",
           "PostgreSQL",
+          "MongoDB",
           "Power BI",
           "Data Modeling",
           "Query Optimization"
@@ -109,27 +112,30 @@
         "icon": "tools",
         "skills": [
           "Git/GitHub",
+          "Docker",
           "Postman",
           "Insomnia",
+          "Swagger",
           "VS Code",
-          "Jupyter",
-          "CI/CD"
+          "Jupyter"
         ]
       }
     ]
   },
   "experience": {
-    "title": "Experience",
+    "title": "Expérience",
     "subtitle": "Mon parcours professionnel",
     "items": [
       {
-        "period": "Fév 2024 – Aujourd'hui",
+        "period": "Fév 2024 – Juil 2026",
         "title": "Développeur Web",
         "company": "C BOX Sarl",
-        "location": "Cotonou, Benin",
+        "location": "Cotonou, Bénin",
         "bullets": [
           "Contribution au développement d’application web avec Laravel et React.js, en respectant une architecture claire et maintenable.",
           "Conception et développement d’APIs REST avec Laravel, en structurant la logique métier pour simplifier les traitements et éviter les incohérences.",
+          "Création de tableaux de bord et de rapports Power BI permettant à la direction de suivre la situation financière des élèves.",
+          "Nettoyage et fiabilisation des données en amont des analyses.",
           "Intégration d’APIs tierces pour traiter les actions utilisateurs et assurer la mise à jour des données en conséquence.",
           "Diagnostic et résolution d’anomalies avec une amélioration continue garantissant la stabilité des applications.",
           "Mise en place de systèmes de notifications en temps réel pour améliorer l’expérience utilisateur.",
@@ -138,21 +144,21 @@
       },
       {
         "period": "Fév 2023 – Mai 2023",
-        "title": "Stage Académique (Développeur Full Stack)",
+        "title": "Stage de recherche (Développeur Fullstack)",
         "company": "TPAPY Consult",
-        "location": "Porto-Novo, Benin",
+        "location": "Porto-Novo, Bénin",
         "bullets": [
           "Développement d’interfaces mobiles avec Flutter.",
-          "Contribution au développement d’application web avec Laravel, en respectant une architecture claire et maintenable.",
-          "Mise en place de scénarios de test pour valider les fonctionnalités avant la mise en production.",
-          "Contribution à la conception de modules à partir des besoins utilisateurs."
+          "Modélisation des besoins fonctionnels avec UML et Merise.",
+          "Contribution à la conception de modules à partir des besoins utilisateurs.",
+          "Mise en place de scénarios de test pour valider les fonctionnalités avant la mise en production."
         ]
       },
       {
-        "period": "Juin 2022 – Sep 2022",
+        "period": "Juin 2022 – Sept 2022",
         "title": "Stage Académique (Développeur WordPress)",
         "company": "C BOX Sarl",
-        "location": "Cotonou, Benin",
+        "location": "Cotonou, Bénin",
         "bullets": [
           "Conception et déploiement de sites web sous WordPress.",
           "Personnalisation avancée de thèmes et plugins pour répondre à des exigences fonctionnelles précises.",
@@ -165,7 +171,7 @@
   "projects": {
     "title": "Projets",
     "subtitle": "Mes réalisations",
-    "description": "Une selection de projets demontrant mes competences en conception d'APIs et applications web.",
+    "description": "Une sélection de projets démontrant mes compétences en conception d'APIs et d'applications web.",
     "featuredLabel": "Featured",
     "buttons": {
       "demo": "Demo",
@@ -175,7 +181,7 @@
     "items": [
       {
         "title": "EcoTrack API",
-        "description": "Systeme de tracabilite supply chain avec QR codes et checkpoints GPS. Detection de fraude logistique et support IoT.",
+        "description": "Système de traçabilité supply chain avec QR codes et checkpoints GPS. Détection de fraude logistique et support IoT.",
         "tech": [
           "Laravel 12",
           "PostgreSQL",
@@ -186,7 +192,7 @@
       },
       {
         "title": "Smart Mobility Analytics",
-        "description": "Plateforme d'analyse de donnees de trajets de taxis NYC. Pipeline ETL complet et dashboard Power BI.",
+        "description": "Plateforme d'analyse de données de trajets de taxis NYC. Pipeline ETL complet et dashboard Power BI.",
         "tech": [
           "Laravel 12",
           "Python",
@@ -219,7 +225,7 @@
       },
       {
         "title": "ForYou API",
-        "description": "API pour application VTC complete. Calcul de distance GPS, estimation de prix, paiements multi-methodes et notifications FCM, etc.",
+        "description": "API pour application VTC complète. Calcul de distance GPS, estimation de prix, paiements multi-méthodes et notifications FCM, etc.",
         "tech": [
           "Laravel",
           "FCM",
@@ -231,7 +237,7 @@
       },
       {
         "title": "GesCom",
-        "description": "Systeme de gestion commerciale pour boutiques. Gestion des entrees/sorties, facturation et alertes de stock.",
+        "description": "Système de gestion commerciale pour boutiques. Gestion des entrées/sorties, facturation et alertes de stock.",
         "tech": [
           "Laravel",
           "MySQL",
@@ -243,14 +249,14 @@
   },
   "education": {
     "title": "Formation",
-    "subtitle": "Mon parcours academique",
+    "subtitle": "Mon parcours académique",
     "items": [
       {
         "period": "2020 - 2023",
-        "location": "Benin, Abomey-Calavi",
-        "degree": "Licence en Système informatique et logiciel",
+        "location": "Abomey-Calavi, Bénin",
+        "degree": "Licence Professionnelle en Système Informatique et Logiciel",
         "school": "Institut Universitaire Les Cours SONOU",
-        "description": "Formation en developpement logiciel, bases de donnees, algorithmique, gestion de projets informatiques, etc.",
+        "description": "Formation en développement logiciel, bases de données, algorithmique, gestion de projets informatiques, etc.",
         "thesisLabel": "Sujet de mémoire",
         "thesis": "Mise en place d'une plateforme d'offres de services et de produits pour artisan: cas du Bénin",
         "grade": "Note : 16/20 T.Bien",
@@ -263,20 +269,20 @@
           "Recherche Opérationnelle",
           "Structure de données",
           "POO",
-          "Base de donnees Relationnelles",
+          "Base de données Relationnelles",
           "Langage UML",
           "Base de données et SQL",
           "Gestion de projet"
         ]
       },
       {
-        "period": "2016 - 2020",
-        "location": "Benin, Dassa-Zoumé",
-        "degree": "Baccalaureat Scientifique",
-        "school": "College d'Enseignement Général de Dassa-Zoumé",
-        "description": "Obtention du baccalaureat D.",
+        "period": "2019 - 2020",
+        "location": "Dassa-Zoumé, Bénin",
+        "degree": "Baccalauréat Scientifique",
+        "school": "CEG 1 Dassa-Zoumé",
+        "description": "Obtention du baccalauréat série D.",
         "subjects": [
-          "Mathematiques",
+          "Mathématiques",
           "Physique",
           "Sciences"
         ]
@@ -286,8 +292,8 @@
   "certifications": {
     "title": "Certifications",
     "subtitle": "Mes certifications",
-    "verified": "Verifie",
-    "issuedBy": "Delivre par",
+    "verified": "Vérifié",
+    "issuedBy": "Délivré par",
     "view": "Voir la certification",
     "items": [
       {
@@ -319,12 +325,13 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Me contacter",
-    "description": "Vous avez un projet en tete ou une opportunite a discuter ? N'hesitez pas a me contacter.",
+    "description": "Vous avez un projet en tête ou une opportunité à discuter ? N'hésitez pas à me contacter.",
     "information": {
       "email": "Email",
       "location": "Localisation",
       "github": "GitHub",
-      "follow": "Suivez-moi sur les reseaux"
+      "follow": "Suivez-moi sur les réseaux",
+      "phone": "Téléphone"
     },
     "form": {
       "title": "Envoyez-moi un message",
@@ -334,7 +341,7 @@
       "subject": "Sujet",
       "subjectPlaceholder": "Sujet de votre message",
       "message": "Message",
-      "messagePlaceholder": "Decrivez votre projet ou opportunite...",
+      "messagePlaceholder": "Décrivez votre projet ou opportunité...",
       "submit": "Envoyer le message"
     },
     "informationsTitle": "Informations",
@@ -343,11 +350,10 @@
   },
   "footer": {
     "name": "Franck AYENAN",
-    "tagline": "Développeur Web et Data Analyst passionné par la création de solutions robustes et performantes.",
+    "tagline": "Développeur Fullstack et data enthusiast, passionné par la création de solutions robustes et performantes.",
     "navigation": "Navigation",
     "technologies": "Technologies",
     "follow": "Suivez-moi",
-    "copyright": "2026 Franck AYENAN, au Benin"
+    "copyright": "2026 Franck AYENAN, au Bénin"
   }
 }
-

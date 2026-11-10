@@ -219,7 +219,7 @@
 "use client"
 
 import { useState } from "react"
-import { Mail, Github, MapPin, Send } from "lucide-react"
+import { Mail, Github, MapPin, Send, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import emailjs from "@emailjs/browser"
@@ -242,9 +242,15 @@ export function Contact() {
       href: "mailto:kossoufranck6@gmail.com",
     },
     {
+      icon: Phone,
+      label: t("contact.information.phone"),
+      value: "+229 01 52 03 21 29",
+      href: "tel:+2290152032129",
+    },
+    {
       icon: MapPin,
       label: t("contact.information.location"),
-      value: "Benin, Abomey-calavi",
+      value: "Abomey-Calavi, Bénin",
       href: null,
     },
     {
